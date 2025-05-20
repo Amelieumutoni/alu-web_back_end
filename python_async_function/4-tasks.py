@@ -44,4 +44,3 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
     # Return the sorted list of delays
     return [heapq.heappop(l1) for _ in range(n)]
 
-
